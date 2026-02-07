@@ -4,15 +4,15 @@ import { HashRouter, Routes, Route, Link, useLocation } from 'react-router-dom';
 import { Menu, X, MessageCircle, ChevronRight, LayoutDashboard, LogIn } from 'lucide-react';
 
 // Pages
-import Home from './pages/Home';
-import About from './pages/About';
-import Services from './pages/Services';
-import Portfolio from './pages/Portfolio';
-import Contact from './pages/Contact';
-import FAQ from './pages/FAQ';
-import AdminDashboard from './pages/AdminDashboard';
-import Login from './pages/Login';
-import Blog from './pages/Blog';
+import Home from './pages/Home.tsx';
+import About from './pages/About.tsx';
+import Services from './pages/Services.tsx';
+import Portfolio from './pages/Portfolio.tsx';
+import Contact from './pages/Contact.tsx';
+import FAQ from './pages/FAQ.tsx';
+import AdminDashboard from './pages/AdminDashboard.tsx';
+import Login from './pages/Login.tsx';
+import Blog from './pages/Blog.tsx';
 
 // Components
 const Navbar: React.FC = () => {
