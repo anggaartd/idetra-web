@@ -9,6 +9,7 @@ export const INITIAL_PROJECTS: Project[] = [
     description: 'Sebuah landing page modern untuk kedai kopi lokal dengan fitur reservasi online.',
     techStack: ['React', 'Tailwind', 'Framer Motion'],
     imageUrl: 'https://images.unsplash.com/photo-1509042239860-f550ce710b93?q=80&w=800&h=600&auto=format&fit=crop',
+    demoUrl: 'https://coffee-demo.idetra.id',
     status: 'published'
   },
   {
@@ -18,6 +19,7 @@ export const INITIAL_PROJECTS: Project[] = [
     description: 'Sistem manajemen nilai siswa digital yang terintegrasi dengan database sekolah untuk kemudahan pelaporan.',
     techStack: ['Next.js', 'PostgreSQL', 'Prisma'],
     imageUrl: 'https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?q=80&w=800&h=600&auto=format&fit=crop',
+    demoUrl: 'https://eraport-demo.idetra.id',
     status: 'published'
   },
   {
@@ -27,6 +29,7 @@ export const INITIAL_PROJECTS: Project[] = [
     description: 'Kartu nama digital interaktif dengan QR code untuk networking profesional yang lebih efektif.',
     techStack: ['React', 'Firebase', 'Tailwind'],
     imageUrl: 'https://images.unsplash.com/photo-1614850523296-d8c1af93d400?q=80&w=800&h=600&auto=format&fit=crop',
+    demoUrl: 'https://idcard.idetra.id/u/john-doe',
     status: 'published'
   },
   {
@@ -36,6 +39,7 @@ export const INITIAL_PROJECTS: Project[] = [
     description: 'Website profil organisasi non-profit dengan fitur manajemen donasi dan laporan transparansi.',
     techStack: ['PHP', 'Laravel', 'MySQL'],
     imageUrl: 'https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=800&h=600&auto=format&fit=crop',
+    demoUrl: 'https://pedulikasih.org',
     status: 'published'
   }
 ];
